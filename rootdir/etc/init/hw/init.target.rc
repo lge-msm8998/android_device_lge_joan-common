@@ -33,6 +33,9 @@ on early-init
     write /proc/sys/kernel/sched_boost 1
 
 on init
+    wait /dev/qseecom
+    start vendor.qseecomd
+
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
     write /dev/stune/schedtune.colocate 0
@@ -60,7 +63,6 @@ on init
     swapon_all /vendor/etc/fstab.joan
 
 on post-fs
-    start vendor.qseecomd
     wait_for_prop vendor.sys.listeners.registered true
     write /dev/ipa 1
 

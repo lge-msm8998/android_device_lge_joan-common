@@ -165,6 +165,7 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1 swiotlb=2048 androidboot.config
 BOARD_KERNEL_CMDLINE += androidboot.usbcontroller=a800000.dwc3
 BOARD_KERNEL_CMDLINE += loop.max_part=7 androidboot.fstab_suffix=qcom
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1da4000.ufshc
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
@@ -183,6 +184,8 @@ BOARD_FLASH_BLOCK_SIZE := 0x40000
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
+
+BOARD_ROOT_EXTRA_FOLDERS := OP
 
 # Power
 TARGET_RPM_MASTER_STAT := "/sys/kernel/debug/rpm_master_stats"

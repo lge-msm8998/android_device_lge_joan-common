@@ -255,6 +255,7 @@ PRODUCT_PACKAGES += \
     init.msm8998.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
+    init.qcom.power.rc \
     init.target.rc
 
 PRODUCT_PACKAGES += \

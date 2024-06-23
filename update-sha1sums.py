@@ -14,8 +14,7 @@ device='joan-common'
 vendor='lge'
 
 files = [
-    "proprietary-files.txt",
-    "proprietary-files_phoenix.txt"
+    "proprietary-files.txt"
 ]
 
 def cleanup(lines):

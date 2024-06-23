@@ -14,6 +14,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_COMMON_PATH)/overlay \
     $(DEVICE_COMMON_PATH)/overlay-lineage
 
 # Audio

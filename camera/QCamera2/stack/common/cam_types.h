@@ -52,7 +52,7 @@
 #define CEILING4(X)  (((X) + 0x0003) & 0xFFFC)
 #define CEILING2(X)  (((X) + 0x0001) & 0xFFFE)
 
-#define MAX_ZOOMS_CNT 91
+#define MAX_ZOOMS_CNT 720
 #define ZOOM_MIN 4096        // min zoom value: 1x
 #define ZOOM_MAX 4096 * 8 // max zoom value: 8x
 #define MAX_SIZES_CNT 40
@@ -692,6 +692,11 @@ typedef enum {
     CAM_ISO_MODE_800,
     CAM_ISO_MODE_1600,
     CAM_ISO_MODE_3200,
+    CAM_ISO_MODE_LGE_1,
+    CAM_ISO_MODE_LGE_2,
+    CAM_ISO_MODE_LGE_3,
+    CAM_ISO_MODE_LGE_4,
+    CAM_ISO_MODE_LGE_5,
     CAM_ISO_MODE_MAX
 } cam_iso_mode_type;
 
@@ -742,6 +747,7 @@ typedef enum {
     CAM_FOCUS_MODE_CONTINOUS_VIDEO,
     CAM_FOCUS_MODE_CONTINOUS_PICTURE,
     CAM_FOCUS_MODE_MANUAL,
+    CAM_FOCUS_MODE_LGE,
     CAM_FOCUS_MODE_MAX
 } cam_focus_mode_type;
 

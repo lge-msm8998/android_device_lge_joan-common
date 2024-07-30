@@ -12,7 +12,10 @@ on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
-    mount_all /vendor/etc/fstab.${ro.hardware}
+    mount_all /vendor/etc/fstab.${ro.hardware} --early
+
+on late-fs
+    mount_all /vendor/etc/fstab.${ro.hardware} --late
 
 on post-fs
     chown root system /mnt/vendor/persist

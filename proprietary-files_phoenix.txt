@@ -143,7 +143,7 @@ system_ext/lib64/libdpmtcm.so|7aab06d22a1d8390cc48719fd758ac2bb62530e1
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|4ba019f169068ff377d85ba25d28b90cf35e9031
 vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
 vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
 # phoenix_sprout - DRM

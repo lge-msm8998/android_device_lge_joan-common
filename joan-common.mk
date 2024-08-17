@@ -42,8 +42,7 @@ PRODUCT_PACKAGES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService-Soong \
-    com.dsi.ant@1.0.vendor
+    AntHalService-Soong
 
 # ARCore
 TARGET_INCLUDE_STOCK_ARCORE := true
@@ -59,7 +58,6 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio_amplifier.lge \
     libaudio-resampler \
-    libaudioroute \
     libhfp \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -96,13 +94,8 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio-impl \
-    audio.bluetooth.default \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor
-
+    audio.bluetooth.default
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -112,16 +105,11 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/camera/s5k3m3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m3_chromatix.xml
 
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0 \
-	android.frameworks.displayservice@1.0.vendor \
-	android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.device@3.4-impl \
     camera.device@3.4-external-impl \
-    vendor.qti.hardware.camera.device@1.0 \
-    libpng.vendor:32 \
-    libxml2
+    vendor.qti.hardware.camera.device@1.0
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
@@ -155,7 +143,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     libtinyxml \
-    libqservice \
     vendor.qti.hardware.memtrack-service
 
 # Doze
@@ -164,7 +151,6 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey
 
 # Fastbootd
@@ -173,9 +159,6 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1 \
-    android.hardware.biometrics.fingerprint@2.1.vendor \
-    vendor.lge.hardware.biometrics.fingerprint@2.1.vendor \
     LGEPocketMode
 
 # FM packages
@@ -201,9 +184,6 @@ PRODUCT_PACKAGES += \
     libgeofencing \
     libgnss \
     libgnsspps \
-    libgps.utils \
-    liblocation_api \
-    libloc_core \
     libsynergy_loc_api
 
 # GNSS configs
@@ -227,16 +207,8 @@ PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.base@1.0.vendor \
     android.hidl.manager@1.0 \
-    android.hidl.manager@1.0.vendor \
-    android.hidl.allocator@1.0 \
-    android.hidl.allocator@1.0.vendor \
-    libhidltransport \
-    libhidltransport.vendor \
-    libhwbinder \
-    libhwbinder.vendor
+    android.hidl.manager@1.0.vendor
 
 # Init
 PRODUCT_PACKAGES += \
@@ -306,8 +278,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2 \
     android.hardware.nfc@1.2.vendor \
-    android.hardware.secure_element@1.2 \
-    android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     NfcNci \
     nqnfcinfo \
@@ -385,31 +355,8 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml \
     $(COMMON_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml
 
-# QMI
-PRODUCT_PACKAGES += \
-    libjson \
-    libqti_vndfwk_detect \
-    libqti_vndfwk_detect.vendor
-
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Radio
-PRODUCT_PACKAGES += \
-    librmnetctl \
-    libandroid_net \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.secure_element@1.2.vendor \
-    android.system.net.netd@1.1 \
-    android.system.net.netd@1.1.vendor \
-    libavservices_minijail.vendor \
-    libsqlite.vendor:64
-
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-3.9.1-vendorcompat \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # Recovery
 PRODUCT_COPY_FILES += \
@@ -429,8 +376,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service \
-    libpower.vendor
+    android.hardware.sensors@1.0-service
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
@@ -478,12 +424,6 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.lge
-
-# VNDK
-PRODUCT_PACKAGES += \
-    libion.vendor \
-    libui_shim.vendor \
-    libstdc++_vendor
 
 # Wifi
 PRODUCT_COPY_FILES += \

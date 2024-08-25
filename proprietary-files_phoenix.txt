@@ -1,6 +1,9 @@
 # All blobs below are from phoenix_sprout Q927L 30s
 # phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
 
+# Current blobs with ELF checks disabled:
+# libcne, lowi-server depends on libwpa_client, which is a GNU Makefile target
+
 # phoenix_sprout - ADSP
 vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
 vendor/lib/libadsp_default_listener.so|5bd8538e94c43968711572dc7e006c90aae1f3fe
@@ -97,12 +100,12 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c9
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|eb11e72a91439180816e9a1d912cbe42f9019f68
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
-vendor/lib64/libcne.so|30be1e46b1b71c93baf446db9d74faf62042b311
+vendor/lib64/libcne.so;DISABLE_CHECKELF|30be1e46b1b71c93baf446db9d74faf62042b311
 vendor/lib64/libcneapiclient.so|1e7564af8f912b6b9877666db755d0d52a4e6c4f
 vendor/lib64/libcneoplookup.so|146e30c9cae63c9411b5c549bf93697a5e715365
 vendor/lib64/libcneqmiutils.so|c1eeab8cf05703cf5a642e259a019bb93d1c5bad
 vendor/lib64/libwms.so|375dc536e7ffd6348e59e88472a937b0e1bcef78
-vendor/lib64/libwqe.so|0a36e2c56376ca614dbd860fe6c43502fc918d82
+vendor/lib64/libwqe.so;DISABLE_CHECKELF|0a36e2c56376ca614dbd860fe6c43502fc918d82
 vendor/lib64/libxml.so|af2ef501c85476a675b770fd03cf24e06a9a70f6
 vendor/lib64/vendor.qti.data.factory@2.0.so|6aaeb2a1065af1edcfcfc3e629bf25468e500972
 vendor/lib64/vendor.qti.data.factory@2.1.so|55ac2c0fedb0a3d63ca19a0e5c2b29c151d0b145
@@ -193,7 +196,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|96718f3fe172181
 # phoenix_sprout - GPS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|2258af1e706dae17eca83e8595a1cfd2e3e5199e
 vendor/bin/loc_launcher|18b31c210dae0abc8048e04902f5a861cd9633f9
-vendor/bin/lowi-server|f1a75b2130c6174cee50840a171cea540a174b8b
+vendor/bin/lowi-server;DISABLE_CHECKELF|f1a75b2130c6174cee50840a171cea540a174b8b
 vendor/bin/mlid|16eaa120f100047f53e807060dc8bf8c9a2216c0
 vendor/bin/xtra-daemon|e07bc8fe7fa4fc385a6246b7d42941127759e0d8
 vendor/bin/xtwifi-client|a18f95a8f6d1ab7abc7e18e79488ecdc557700f4

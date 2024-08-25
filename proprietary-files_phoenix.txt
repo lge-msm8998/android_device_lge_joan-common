@@ -188,7 +188,7 @@ system_ext/lib64/fm_helium.so|99140db2b53af1b70577507517540e64aff87d7a
 system_ext/lib64/libfm-hci.so|ae515ef544d20d16c6db16e6af9468e0cc764703
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so|6523b3a08292501589f44ad6928cf57770ca98cb
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|93d39a2bb30e6be0baa547daa6197e5a7351ca01
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|96718f3fe1721815060bc9864d92ac33d040cd74
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|96718f3fe1721815060bc9864d92ac33d040cd74
 
 # phoenix_sprout - GPS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|2258af1e706dae17eca83e8595a1cfd2e3e5199e

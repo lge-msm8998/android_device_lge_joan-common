@@ -1,5 +1,5 @@
-# All blobs below are from phoenix_sprout Q927L 30r
-# phoenix_lgu_kr-user 11 RKQ1.201123.002 22005163197a5 release-keys
+# All blobs below are from phoenix_sprout Q927L 30s
+# phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
 
 # phoenix_sprout - ADSP
 vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
@@ -750,7 +750,7 @@ vendor/lib64/libvssims-impl.so|feeb603d77f5d7fa2750746480ff240cb1bd8279
 vendor/lib64/vendor.lge.hardware.vss_ims@1.0.so|07587c400441bf378a46ba05a3438cd59871cf2e
 
 # phoenix_sprout - Sensors
-vendor/bin/sensors.qti|c3ce117bcde799fb72f599f21cf04995225a0a98
+vendor/bin/sensors.qti|a1eb4e73ea177c6545509bb7663b64f84041f697
 vendor/lib/hw/activity_recognition.msm8998.so|d4d83c58ca0e1392f348feac82aa2931b0a97455
 vendor/lib/libsensor1.so|7842d151a887a6cde30887ebb9e2cd12221a295c
 vendor/lib/libsensor_reg.so|9b1d770573a17c3394358eae06aaebda7e66d94e
@@ -773,7 +773,7 @@ lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so|506a4ed2e08cb9b5422e93180e
 lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so|c1c523e7583417c3fd77a8dfcd764cef0d999514
 lib64/libmiracastsystem.so|4634072216f05d8668998ab02aa9564175bf0edd
 lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so|ffd5a18b4aa41f3914d42c348b97d7dcedafbe74
-vendor/bin/sigma_dut|77999019f3e2891fdbdfd3979809f357b5e695d8
+vendor/bin/sigma_dut|cbc051fe8ec9b88ea5581b9197115ce2a018886b
 vendor/lib/libmiracast.so|639f12e1cd0c08ddef0c706d6fdb7660b37b0b7c
 vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so|1ce16e3d7326cd5a696f33b184731cd875512971
 vendor/lib64/libmiracast.so|1ab30955829a8d0930616fd9d04dfd83341b5334

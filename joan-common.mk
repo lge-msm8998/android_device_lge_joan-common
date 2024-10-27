@@ -11,6 +11,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
+    bootable/deprecated-ota \
     hardware/lge
 
 # Overlays

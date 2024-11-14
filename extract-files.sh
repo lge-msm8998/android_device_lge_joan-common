@@ -117,6 +117,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i "s/\xf2\x8b\xff\x97/\x2a\x00\x00\x14/" "${2}"
             ;;
+	    vendor/lib64/libwvhidl.so)
+            [ "$2" = "" ] && return 0
+	        grep -q libcrypto_shim.so "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
+            ;;
         *)
             return 1
             ;;

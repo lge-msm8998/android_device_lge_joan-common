@@ -105,7 +105,6 @@ TARGET_KERNEL_VERSION := 4.4
 TARGET_KERNEL_LLVM_BINUTILS := false
 
 # Lights
-TARGET_PROVIDES_LIBLIGHT := true
 $(call soong_config_set,LGE_LIGHTS_HAL,INCLUDE_DIR,$(COMMON_PATH)/include)
 
 # Media

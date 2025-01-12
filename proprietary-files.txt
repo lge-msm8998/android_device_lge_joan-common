@@ -450,10 +450,9 @@ vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/hw/fingerprint.msm8998.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.msm8998.so
 vendor/lib64/hw/gatekeeper.msm8998.so
 
-# Graphics (Adreno) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys:
+# Graphics (Adreno) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|9a22d4a4daeb772d2ec1671fce7fbd09523e3ec9
 vendor/lib/egl/libEGL_adreno.so|6011af9db793dd28c2bfe823e77e16e7faf48f61
 vendor/lib/egl/libGLESv1_CM_adreno.so|db9ab3ee7efd8cc9199bafa9133c96d9adbf23d0
@@ -500,17 +499,13 @@ vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a540_gpmu.fw2
 
 # Graphics (HDCP) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys
-vendor/lib/libhdcp1prov.so|4c0fd4d41fe11d36fa80f5127b2202b2a503fd0a
-vendor/lib/libhdcp2p2prov.so|934b346874d5ebff20d7deac273a03056c6d86f7
 vendor/lib64/libhdcp1prov.so|dd6ca8cc4b6b3d3c8ad9bf43a5fce49fc94df5dd
 vendor/lib64/libhdcp2p2prov.so|4207bd27efe7c81770c26177b4d3af2471bc882e
 
 # Graphics (HDR) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys
-vendor/lib/libhdr_tm.so|e69119603bff4a039242eead65279b3faf29ffa0
 vendor/lib64/libhdr_tm.so|ac4c943ba0c9793e53fc0b4eecf78ebb90eb28bf
 
 # Graphics (SDM) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys
-vendor/lib/libsdedrm.so|089227205f43da5a974897f680238270ee49f562
 -vendor/lib/libsdm-disp-vndapis.so|a982cb75f67f688353bc39e8d77cb2e9879e3bbb
 vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
 vendor/lib64/libsdedrm.so|f007903083a95cba32372df7404cbf0d39abe2a7
@@ -521,7 +516,6 @@ vendor/lib64/libsdmextension.so|7d0a49fd74e4b4d93a3d379267372ceaa79ca264
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # Graphics (Vulkan) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys
-vendor/lib/hw/vulkan.msm8998.so|65211c879229c7e29f2cd72af01ef1f40a5fe6d0
 vendor/lib64/hw/vulkan.msm8998.so|d9c347b5fcd1c821c4b1d958a82f1b992257f127
 
 # Hotword Enrollment
@@ -529,7 +523,6 @@ vendor/lib64/hw/vulkan.msm8998.so|d9c347b5fcd1c821c4b1d958a82f1b992257f127
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 
 # Keystore
-vendor/lib/hw/keystore.msm8998.so
 vendor/lib64/hw/keystore.msm8998.so
 
 # Leia

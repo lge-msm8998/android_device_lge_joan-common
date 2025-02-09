@@ -1,10 +1,54 @@
 # All unpinned blobs below are from joan H930 31a
 # joan_global_com-user 9 PKQ1.190414.001 193091504cde8 release-keys
 
-#
 # Current blobs with ELF checks disabled:
 # The following depend on compiler intrinsic symbols that are not exported:
 # liblgmda, libmmcamera2_stats_algorithm, libmmcamera2_stats_lib, libmmcamera_faceproc
+
+# ADSP - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
+vendor/lib/libadsp_default_listener.so|5bd8538e94c43968711572dc7e006c90aae1f3fe
+vendor/lib/libadsprpc.so|c6f2de6abc436aa872dd21462b28d20a53b8d600
+vendor/lib/libcdsp_default_listener.so|ee04e9dec5c6b729de9bc4589fed806edb34b52e
+vendor/lib/libcdsprpc.so|7d5c464b1afef59cf37f7c2000816e90dc9e41ad
+vendor/lib/libfastcvopt.so|7fab7ad328874354e246bc14ead83b97572a3067
+vendor/lib/libmdsprpc.so|f12b9a6b6e255de7d4b58001f522e2bd1ac04dcf
+vendor/lib/libsdsprpc.so|1f55c61f6055683c65e0ee7a8c6bf0040943e673
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|cf45ba046c219dcbebb9203f99eae1ce3692a485
+vendor/lib64/libadsp_default_listener.so|aa3b51b544032a250ab02687c0200152f80a23dd
+vendor/lib64/libadsprpc.so|788f5e5c2042bce5cb90f438e6e8eb9b11cf660d
+vendor/lib64/libcdsp_default_listener.so|10907139f8fe737cbffba80947082d83e1c019d8
+vendor/lib64/libcdsprpc.so|5232fa64b905c0370ac5ee65abc06149adcba373
+vendor/lib64/libfastcvopt.so|b71d610c1bd038be62c7252673f25cfe9277091d
+vendor/lib64/libmdsprpc.so|bce1a9f5891b146400158d852175ebb13e84bd8d
+vendor/lib64/libsdsprpc.so|29e9e23304e9a2f53d2eaa3472266a59fb114182
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|a1b0b64b24939bf827f4c7046c004f21e33805d0
+
+# ANT+ - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|42a87f0aeb2db5776f8741625144d09253ba0cef
+
+# Audio - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/lib/libacdb-fts.so|20e086e7095dd3eb5a2be4eab87498a4ed6103a1
+vendor/lib/libacdbloader.so|30a242b0ef6a3fe751b6436f4fc93f1d407fe81b
+vendor/lib/libacdbrtac.so|6fb9e7f7fa708836568b3968754fbe3f779e3d9f
+vendor/lib/libadiertac.so|7159f73021b7edd84517d043d3a5a7cb4d065d19
+vendor/lib/libadm.so|35460db7533555d048198b669ebbd1f96ba495fd
+vendor/lib/libaudcal.so|b03a98708cd3f7c59cc218eb731e896f7eea5ed8
+vendor/lib/libaudio_log_utils.so|49d81f3d93a32b0e3b3916477c3130930fc96448
+vendor/lib/libaudioalsa.so|a24a0b884016ab6c661d3c934934dbbeeac10a9a
+vendor/lib/libaudioparsers.so|ddd382c8d813819e15a7a87da0481028f2baece2
+vendor/lib/libqtigef.so|b0af0139e046ff282babd28d182ab1c3d6bb8c5f
+vendor/lib/soundfx/libasphere.so|60225c5bb3480fc155a3e6f4828364f0041d2284
+vendor/lib64/libacdb-fts.so|1b7d6f12a24d05eccf4248620a46557842fa5289
+vendor/lib64/libacdbloader.so|050c1c6902e333c693f4efa8d78650c62568bc56
+vendor/lib64/libacdbrtac.so|75dbc64afbc8d485436157ef95e2aea9b2f15ef7
+vendor/lib64/libadiertac.so|d7e550020f174bbd1b93668d0482bede0f7b8e02
+vendor/lib64/libaudcal.so|41c49788d1fd1c6f8489c7432f91e4eb799bb295
+vendor/lib64/libaudio_log_utils.so|59d869b08a69991bb2cbc7e545a50ed1542d0aa4
+vendor/lib64/libaudioalsa.so|54ee2a89f13ec2694a8a3252defa1472c3d6e220
+vendor/lib64/libaudioparsers.so|24c8793689d649ff1b9f2133caa43e99160257bb
+vendor/lib64/libqtigef.so|5102e5faa696f9525f6a34d0c2b65b1d3f1df022
+vendor/lib64/soundfx/libasphere.so|0074f7645a035955e35341f76aa414608ab569ba
 
 # Audio (Firmware)
 vendor/firmware/Tfa9872.cnt
@@ -20,17 +64,36 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Alarm - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|6508f5708221399eb8bd9754dc49bad32a911e27
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|49b10789e06c28cdc3cf4376a3a90b0f7c3ce5e3
+vendor/bin/power_off_alarm|a3e61ab002c5fd8c53bd631ece530a218b82ca6b
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|3ceeae0725cfe80c06db63b06056522fbba19971
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|fa85d571bc7ff05990b4806b73ea72d6e3921634
+
+# Bluetooth - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|3bda2fcf2d3f4ea4d2189e29b0d9488e6a8f98cb
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|119c92299cd20b5da277cd9acaf4be92d466880f
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|953fb4503a55eeabf70b5350ced37a0cb3cce4e0
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|2027ad302792f3f2c6464ed944901176da1d2f24
+vendor/lib64/libbt-hidlclient.so|f95aef26d5a60f9ba48357eb965d33757c715925
+vendor/lib64/libbtnv.so|b55acff2076672470658f4926cbaa6d68ba70bca
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|1f323eff9592ff1bde9fa5fdcba99cf9b91777e9
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|9e4fef5c70c90f90a951d08773c118bc30b0dbcb
+
 # Bluetooth (Firmware)
-etc/firmware/nvm_tlv.bin:vendor/etc/firmware/nvm_tlv.bin
-etc/firmware/nvm_tlv_1.3.bin:vendor/etc/firmware/nvm_tlv_1.3.bin
-etc/firmware/nvm_tlv_2.1.bin:vendor/etc/firmware/nvm_tlv_2.1.bin
-etc/firmware/nvm_tlv_3.0.bin:vendor/etc/firmware/nvm_tlv_3.0.bin
-etc/firmware/nvm_tlv_3.2.bin:vendor/etc/firmware/nvm_tlv_3.2.bin
-etc/firmware/rampatch_tlv.img:vendor/etc/firmware/rampatch_tlv.img
-etc/firmware/rampatch_tlv_1.3.tlv:vendor/etc/firmware/rampatch_tlv_1.3.tlv
-etc/firmware/rampatch_tlv_2.1.tlv:vendor/etc/firmware/rampatch_tlv_2.1.tlv
-etc/firmware/rampatch_tlv_3.0.tlv:vendor/etc/firmware/rampatch_tlv_3.0.tlv
-etc/firmware/rampatch_tlv_3.2.tlv:vendor/etc/firmware/rampatch_tlv_3.2.tlv
+system/etc/firmware/nvm_tlv.bin:vendor/etc/firmware/nvm_tlv.bin
+system/etc/firmware/nvm_tlv_1.3.bin:vendor/etc/firmware/nvm_tlv_1.3.bin
+system/etc/firmware/nvm_tlv_2.1.bin:vendor/etc/firmware/nvm_tlv_2.1.bin
+system/etc/firmware/nvm_tlv_3.0.bin:vendor/etc/firmware/nvm_tlv_3.0.bin
+system/etc/firmware/nvm_tlv_3.2.bin:vendor/etc/firmware/nvm_tlv_3.2.bin
+system/etc/firmware/rampatch_tlv.img:vendor/etc/firmware/rampatch_tlv.img
+system/etc/firmware/rampatch_tlv_1.3.tlv:vendor/etc/firmware/rampatch_tlv_1.3.tlv
+system/etc/firmware/rampatch_tlv_2.1.tlv:vendor/etc/firmware/rampatch_tlv_2.1.tlv
+system/etc/firmware/rampatch_tlv_3.0.tlv:vendor/etc/firmware/rampatch_tlv_3.0.tlv
+system/etc/firmware/rampatch_tlv_3.2.tlv:vendor/etc/firmware/rampatch_tlv_3.2.tlv
 vendor/firmware/crbtfw21.tlv
 vendor/firmware/crnv21.bin
 
@@ -461,6 +524,16 @@ vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|c041dbfc99643e791e52c4e7f3a
 vendor/lib64/vendor.qti.latency@2.0.so|82196d2863e012ad2b6e1b9af9d9ce7c611f64be
 vendor/lib64/vendor.qti.latency@2.1.so|d279c5e456bb3e546130df3cd6f398cea6b48eaf
 
+# Display (Postprocessing) - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|fe8aebf4caa5d3d5ae8f6a8ceef0f5718e89f8ec
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib64/libdisp-aba.so|c5c0f5f3d053e1663379d152fdc84ac66bb0ea1d
+vendor/lib64/libmm-hdcpmgr.so|99cf7e11c8e08ddb92deb8fbd514cf874bedaf63
+vendor/lib64/vendor.display.color@1.0.so|49168af52d82ea30af36671ac8e1ba40fce3c398
+vendor/lib64/vendor.display.color@1.1.so|ff4a2fda129dc0847daa2219f0e7769773538c58
+vendor/lib64/vendor.display.color@1.2.so|005ca5cf8e9b00f93daac04920d5433681a38fd4
+vendor/lib64/vendor.display.postproc@1.0.so|4da7d9a9ba0a769ff0c75daa7513392279015cfa
+
 # DPM - from FP3 - fp3_gms-user 13 6.A.031.5 gms-fa7632b5 release-keys
 system_ext/bin/dpmd|dc94ffe90c6658b0bc99c64f68517c4048d0321a
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -479,6 +552,36 @@ vendor/bin/dpmQmiMgr|61a421804559b0e461439c19088acc01b871982a
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
+
+# DRM - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|9bbbb98699438abb8da802c04b03f9a426e6140c
+vendor/bin/qseecomd|af064de43593275d3d6b0c6941b6017780f70671
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|549efb5fe6700fbf1a1c4ffaf4682fc1cd4db8a2
+vendor/lib64/libGPreqcancel.so|cef7983d5aceb03b4c422731c838ead1a8f3fed4
+vendor/lib64/libGPreqcancel_svc.so|e9874fe970ced25c88baae1d758ef0ceb8effa6d
+vendor/lib64/libQSEEComAPI.so|1d1ee2a76842d565b3af0f98a47e80a92a0bc674
+vendor/lib64/libSecureUILib.so|f63bbf3a468529a91a43c28b2bc0d8f43786c01c
+vendor/lib64/libStDrvInt.so|0bc6ea1873e3c6710fceb085c494227a9468441e
+vendor/lib64/libbase64.so|70bc95e0861eb969d7361c3d13727180c83c44b8
+vendor/lib64/libcpion.so|0a6999ca33dea3bed4301106fc225f9b11b9f289
+vendor/lib64/libdrmfs.so|cf8706de5796a29fec22e2b1e0edd2aacc7ffc7e
+vendor/lib64/libdrmtime.so|a3a2686bf4049adf67612fe890d94bc54b5fc4e6
+vendor/lib64/libhdcpsrm.so|affdc2195766c34226510dd422fbf22f689b25b2
+vendor/lib64/libqisl.so|529d7e20bb33147fe3404c1a58d266e49228046a
+vendor/lib64/librmp.so|2618a622b4bcd285878f9a65bf75fef57885bc2e
+vendor/lib64/librpmb.so|7e79c722e87fbe1de6c1b1032e1778f8c91551cb
+vendor/lib64/libsecureui_svcsock.so|ea041b45952ddbf23c6c2cb949439f174c7de51b
+vendor/lib64/libspl.so|f9c12bc40b075ef5b933fe0ff6b86ebe72a031db
+vendor/lib64/libssd.so|d056d130421f999321f32e046165776e20f1027d
+vendor/lib64/libtzdrmgenprov.so|5104c6dea64456d87c349cd97d15b2dc2c53a4cb
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|d1cc7c66ea735a686248c454abadbc3b47c10453
+
+# DRM (Widevine) - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|255aecf1c465ab316c2c619780081f22ca57ca25
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/lib64/libwvhidl.so|db278bf95e9823ef749c92fdef6a504f68dea620|69220afb13b8fad9110a9c81d8870fc79ca4a981
 
 # DSP
 vendor/etc/scve/facereco/gModel.dat
@@ -528,10 +631,24 @@ vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib/rfsa/adsp/mmecns_module.so.1
 
+# ESE - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|5b203bacea91377d710d0b390e12fdcfa3c8af05
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|dde15e1def26a102045c414af9734aedf945a0ce
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|126bc511ee16c6a9753fb420379432577da65cd8
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|279861b447f8df3149ee1c3f58d27a0b854c2df7
+
 # Fingerprint
 vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/hw/fingerprint.msm8998.so
+
+# FM - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+system_ext/lib64/fm_helium.so|99140db2b53af1b70577507517540e64aff87d7a
+system_ext/lib64/libfm-hci.so|ae515ef544d20d16c6db16e6af9468e0cc764703
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|6523b3a08292501589f44ad6928cf57770ca98cb
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|93d39a2bb30e6be0baa547daa6197e5a7351ca01
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|96718f3fe1721815060bc9864d92ac33d040cd74
 
 # Gatekeeper
 vendor/lib64/hw/gatekeeper.msm8998.so
@@ -633,12 +750,12 @@ vendor/lib64/libhdcp2p2prov.so|4207bd27efe7c81770c26177b4d3af2471bc882e
 vendor/lib64/libhdr_tm.so|ac4c943ba0c9793e53fc0b4eecf78ebb90eb28bf
 
 # Graphics (SDM) - from cheeseburger - OnePlus5-user 10 QKQ1.191014.012 2010292059 release-keys
--vendor/lib/libsdm-disp-vndapis.so|a982cb75f67f688353bc39e8d77cb2e9879e3bbb
+vendor/lib/libsdm-disp-vndapis.so|a982cb75f67f688353bc39e8d77cb2e9879e3bbb
 vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
 vendor/lib64/libsdedrm.so|f007903083a95cba32372df7404cbf0d39abe2a7
 vendor/lib64/libsdm-color.so|9bfc08c837db828cbc6a80c9c15c87bfdb62b90c
 vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
--vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
+vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
 vendor/lib64/libsdmextension.so|7d0a49fd74e4b4d93a3d379267372ceaa79ca264
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
@@ -646,8 +763,17 @@ vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 vendor/lib64/hw/vulkan.msm8998.so|d9c347b5fcd1c821c4b1d958a82f1b992257f127
 
 # Hotword Enrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+
+# Improvetouch - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/etc/hbtp/loader.cfg|d397cdd3c3aac51cf2f06402638744b6b31f5f60
+vendor/etc/hbtp/qtc800h.bin|7c9c4a06f059ba08e65e02a339ee6d40c4dd5516
+vendor/etc/hbtp/qtc800h_8998_660.bin|7e6e9537983d3df865107f9f70b6d8ed557d6074
+vendor/etc/hbtp/qtc800s_dsp.bin|5a14812ef2f02836e4d44338098a6ae47409b912
+vendor/etc/hbtp/qtc800t.bin|f9f6d37c4819642531ec10b3df64b5585460efb7
+vendor/lib/libfastrpc_utf_stub.so|247a0f8ebe8b9b2b75f097bcab28caae87bb9e28
+vendor/lib64/libfastrpc_utf_stub.so|2f11d383753eb50ebbd8791361d9d61351163f85
 
 # Keystore
 vendor/lib64/hw/keystore.msm8998.so
@@ -669,6 +795,18 @@ vendor/lib64/libgcs-calwrapper.so
 vendor/lib64/libgcs-ipc.so
 vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
+
+# Media - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/lib/libmmosal.so|59bd6244b605197ce9af747963cb02a820e66973
+vendor/lib/libqcbor.so|30193e3894b06be2d01aa0f67be34eb1467cf515
+vendor/lib/libvpphvx.so|b2e15556a58d29620c834f840da1d5becfa7c743
+vendor/lib64/libmmosal.so|53abc82c3e20fc48627bf5cc85b2c80442793d8d
+vendor/lib64/libvpphvx.so|8d12cecadad274389a8671a8ae7be13de9f15cd3
+
+# PD mapper - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/pd-mapper|6d6f81b711402cb2d4a3b6882d83f4176663a88e
+vendor/lib64/libpdmapper.so|8616114fee81517d53292b7c71b0e854b5eb189d
+vendor/lib64/libpdnotifier.so|f30b8e2438b24245acc230c5c51615ff40d711f7
 
 # Peripheral manager - from FP3 - fp3_gms-user 13 6.A.031.5 gms-fa7632b5 release-keys
 vendor/bin/pm-proxy|910437c11108aa66e803bbc760ce3998d141a6b4
@@ -724,6 +862,19 @@ vendor/lib64/libqmi_csi.so|6d22ed6353c791ea1804c195b92b02dc28a679c3
 vendor/lib64/libqmi_encdec.so|8a365cf7472c187c02fa0649e09fee529ded7563
 vendor/lib64/libqmiservices.so|2e259463cbeb329caec303b642ab4068c8d10be5
 vendor/lib64/libril-qc-logger.so|7f80da37d120faffd72838b76d74102c7321e3a3
+
+# Qualcomm Trusted Execution Environment - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|f8dc88c7166ffc2c1d997e7d5f16a8eb69c37cfc
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|375e753fa751bbf727a9bfebcaea9c65d8c240b3
+vendor/lib64/libGPQTEEC_vendor.so|22bf79c99fffb5a96c5a674e9d002f6472267de1
+vendor/lib64/libGPTEE_vendor.so|a8896a022e2b977997a40be9c584ff778d25c0f9
+vendor/lib64/libQTEEConnector_vendor.so|62d8993f51e0d4a0c4d6ae2645512ddfc76577f3
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|0b00fa7f976626eddffe09ad6a199cdafdbc2663
+
+# Quick charge - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hvdcp_opti|d712386440265ec285b28189b1730cad77a6ecd3
+vendor/bin/qni|fb869c6cbb6ee03bb2f24fbdb87f3306beb23f57
 
 # RIL - from FP3 - fp3_gms-user 13 6.A.031.5 gms-fa7632b5 release-keys
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|341ac4f8b754883df97f2e9920f1e9a255a6a160
@@ -818,6 +969,28 @@ vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
+# Sensors - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/sensors.qti|a1eb4e73ea177c6545509bb7663b64f84041f697
+vendor/lib/hw/activity_recognition.msm8998.so|d4d83c58ca0e1392f348feac82aa2931b0a97455
+vendor/lib/libsensor1.so|7842d151a887a6cde30887ebb9e2cd12221a295c
+vendor/lib/libsensor_reg.so|9b1d770573a17c3394358eae06aaebda7e66d94e
+vendor/lib/libsns_low_lat_stream_stub.so|3e183202e1160708aed9cdb2a6e0f419724a7750
+vendor/lib/libssc_default_listener.so|b4fe67e4466f2437e0c5ac81f2d5429c7854518d
+vendor/lib/sensor_calibrate.so|760d06e9414f1512e23776828f49d3f321a2165d
+vendor/lib64/hw/activity_recognition.msm8998.so|8c5021d7e0ac425a4b3ef34a8ca906ae3ec33304
+vendor/lib64/libsensor1.so|cab55704ab50219d83613544e6d436932ee08a9a
+vendor/lib64/libsensor_reg.so|8d70ae8aabeb5d6f1dd077e67ac3f46d3a8ac286
+vendor/lib64/libsns_low_lat_stream_stub.so|0a2b4225c349c8931bc881c1483da7c8664ebbe0
+vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
+vendor/lib64/sensor_calibrate.so|1966eb6532239faf142e1bc4083a18fec6ada383
+
+# Soter - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|a6ea6031c27889797b96fe29ba100924b79fe3fb
+vendor/bin/vendor.qti.hardware.soter@1.0-provision|5627b57a072252d6293becc4c896988bbc59726f
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|911252cc6f13cea0fcb6639894a744bf74b0bdca
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|ead82b34bc252a80c987980fd203e9c85c4381ce
+
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/thermal-engine-8998.conf
@@ -830,3 +1003,17 @@ vendor/lib64/libthermalioctl.so
 # Time services
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
+
+# Trusted User Interface - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e8d97981d09a4e34907d13bcbbd10f03572c9218
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|7f579dad97d8b5d048e80daa8929172cdfdcabd7
+
+# Wifi - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/bin/cnss-daemon|bc8cbaea7fb8d8e4a16940faca6cd999341bac34
+vendor/bin/wifilearner|a57f932c2ebafd0caace96df2317142363b4ee5b
+vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc|aacefc44da5e64760bc12779a83b905ca6b78f01
+vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so|816a810aa2925fc7e469368c0a7ade33623132ff
+
+# Wifi (Wigig) - from phoenix_sprout - phoenix_lgu_kr-user 11 RKQ1.201123.002 8998110220201 release-keys
+vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so|647e87f1e1248edff2871f22d6150d4fca8a8949

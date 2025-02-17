@@ -9,6 +9,8 @@ COMMON_PATH := device/lge/joan-common
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1440
+
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
     bootable/deprecated-ota \
